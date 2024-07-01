@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var fisrtno, secondno, ans;
+
+        function Add() {
+            fisrtno = parseInt(document.getElementById('fno').value);
+            secondno = parseInt(document.getElementById('sno').value)
+            ans = fisrtno + secondno;
+            document.getElementById('answar').value = ans
+
+        }
+
+        function sub() {
+
+            fisrtno = parseInt(document.getElementById('fno').value)
+            secondno = parseInt(document.getElementById('sno').value)
+            ans = fisrtno - secondno;
+            document.getElementById('answar').value = ans;
+
+        }
+
+        function mul() {
+
+            fisrtno = parseInt(document.getElementById('fno').value)
+            secondno = parseInt(document.getElementById('sno').value)
+            ans = fisrtno * secondno;
+            document.getElementById('answar').value = ans;
+
+        }
+
+        function Div() {
+
+            fisrtno = parseInt(document.getElementById('fno').value)
+            secondno = parseInt(document.getElementById('sno').value)
+            ans = fisrtno / secondno;
+            document.getElementById('answar').value = ans;
+
+        }
+    </script>
+</head>
+
+<body>
+    <p>Enter first element</p><input type="text" id="fno">
+    <p>Enter second element</p><input type="text" id="sno"><br><br>
+
+
+    <button onclick="Add()">Addition</button>
+    <button onclick="sub()">Subtraction</button>
+    <button onclick="mul()">Multiplication</button>
+    <button onclick="Div()">Division</button><br><br><br>
+
+    <input type="text" id="answar"><br>
+
+</body>
+
+</html>

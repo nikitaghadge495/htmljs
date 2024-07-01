@@ -1,0 +1,21 @@
+div {
+    background-color: chocolate;
+    padding: 50px;
+    border: 2px;
+}
+
+h1 {
+    color: burlywood;
+    background-color: darkgreen;
+    text-align: center;
+}
+
+p {
+    color: blueviolet;
+    background-color: crimson;
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+}

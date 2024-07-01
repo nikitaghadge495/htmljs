@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function loginfrom() {
+            let x = document.forms["myform"]["password"].value
+            if (x == "") {
+                alert("fill the password")
+            } else {
+                document.write("form fill successfully!!!!")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form name="myform" onsubmit="return loginfrom()" method="post">
+        User Id <input type="text" name="user id" size="10"><br><br> password <input type="password" name="password" size="10" required><br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
